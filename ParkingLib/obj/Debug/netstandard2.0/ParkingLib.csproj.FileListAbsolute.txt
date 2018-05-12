@@ -1,0 +1,8 @@
+C:\Andrii\Projects\BSA18\BSA18_hw3_Dushkevych\ParkingLib\bin\Debug\netstandard2.0\ParkingLib.deps.json
+C:\Andrii\Projects\BSA18\BSA18_hw3_Dushkevych\ParkingLib\bin\Debug\netstandard2.0\ParkingLib.dll
+C:\Andrii\Projects\BSA18\BSA18_hw3_Dushkevych\ParkingLib\bin\Debug\netstandard2.0\ParkingLib.pdb
+C:\Andrii\Projects\BSA18\BSA18_hw3_Dushkevych\ParkingLib\obj\Debug\netstandard2.0\ParkingLib.csproj.CoreCompileInputs.cache
+C:\Andrii\Projects\BSA18\BSA18_hw3_Dushkevych\ParkingLib\obj\Debug\netstandard2.0\ParkingLib.AssemblyInfoInputs.cache
+C:\Andrii\Projects\BSA18\BSA18_hw3_Dushkevych\ParkingLib\obj\Debug\netstandard2.0\ParkingLib.AssemblyInfo.cs
+C:\Andrii\Projects\BSA18\BSA18_hw3_Dushkevych\ParkingLib\obj\Debug\netstandard2.0\ParkingLib.dll
+C:\Andrii\Projects\BSA18\BSA18_hw3_Dushkevych\ParkingLib\obj\Debug\netstandard2.0\ParkingLib.pdb

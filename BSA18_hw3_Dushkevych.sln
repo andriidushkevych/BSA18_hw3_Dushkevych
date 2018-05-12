@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSA18_hw3_Dushkevych", "BSA18_hw3_Dushkevych\BSA18_hw3_Dushkevych.csproj", "{4C2F5AB9-2CF4-41D0-B5D0-FC673A4F2977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkingLib", "ParkingLib\ParkingLib.csproj", "{B968A5FF-2B22-4D0E-A788-62A6912D113E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C2F5AB9-2CF4-41D0-B5D0-FC673A4F2977}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2F5AB9-2CF4-41D0-B5D0-FC673A4F2977}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2F5AB9-2CF4-41D0-B5D0-FC673A4F2977}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2F5AB9-2CF4-41D0-B5D0-FC673A4F2977}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B968A5FF-2B22-4D0E-A788-62A6912D113E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B968A5FF-2B22-4D0E-A788-62A6912D113E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B968A5FF-2B22-4D0E-A788-62A6912D113E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B968A5FF-2B22-4D0E-A788-62A6912D113E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CACBC6AC-FE66-4DF8-AE70-89E92AA9DF5E}
+	EndGlobalSection
+EndGlobal
