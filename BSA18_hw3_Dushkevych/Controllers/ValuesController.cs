@@ -46,22 +46,45 @@ namespace BSA18_hw3_Dushkevych.Controllers
             return JsonConvert.SerializeObject(Parking.ParkingInstance.Balance);
         }
 
-        // POST api/values
+        // GET api/parking/transaction/log
+        [HttpGet("transaction/log")]
+        public string GetTransactionLog()
+        {
+            return JsonConvert.SerializeObject(Parking.ParkingInstance.GetTransactionsHistory());
+        }
+
+        // GET api/parking/transaction/recent
+        [HttpGet("transaction/recent")]
+        public string GetRecentParkingTransactions()
+        {
+            return JsonConvert.SerializeObject(Parking.ParkingInstance.GetRecentTransactionHistory());
+        }
+
+        // GET api/parking/transaction/recent/1
+        [HttpGet("transaction/recent/{id}")]
+        public string GetRecentCarTransactions(int id)
+        {
+            return JsonConvert.SerializeObject(Parking.ParkingInstance.GetRecentTransactionHistory().Where(x => x.CarId == id));
+        }
+        
         [HttpPost]
-        public void Post([FromBody]string value)
+        public void AddCar(Car newCar)
         {
+            Parking.ParkingInstance.AddCar(newCar);
         }
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
+        // PUT api/parking/loadcarbalance/2/500
+        [HttpPut("loadcarbalance/{id}/{amount}")]
+        public void LoadCarBalance(int id, double amount)
         {
+            Parking.ParkingInstance.LoadCarBalance(id, (double)amount);
         }
 
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        // DELETE api/parking/car/remove/{id}
+        [HttpDelete("car/remove/{id}")]
+        public void RemoveCar(int id)
         {
+            Parking.ParkingInstance.RemoveCar(id);
         }
     }
 }
